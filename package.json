@@ -4,8 +4,10 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test",
-    "start": "nodemon server/server.js"
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "6"
   },
   "keywords": [],
   "author": "Daniel Campbell",
