@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux'
 
-import bpReducer from './bpReducer'
+import gifReducer from './gifReducer'
+import oneGifReducer from './oneGifReducer'
 
 export default combineReducers({
-  bpState: bpReducer
+  gifState: gifReducer,
+  oneGif: oneGifReducer
 })
